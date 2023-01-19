@@ -16,7 +16,6 @@ export default function App() {
     <View style={styles.container}>
       <Text>Result: {result}</Text>
       <Text>Result: {addResult}</Text>
-      <Text  style={{color:'red', fontSize:26}}>Result: Amit Bhai</Text>
     </View>
   );
 }
