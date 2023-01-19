@@ -1,11 +1,11 @@
-import React, {  } from 'react';
+import React from 'react';
 
 import { StyleSheet, View, Text } from 'react-native';
 import { multiply, add } from 'react-native-awesome-library';
 
 export default function App() {
   const [result, setResult] = React.useState<number | undefined>();
-  const [addResult, setAddResult] =React.useState<number | undefined>();
+  const [addResult, setAddResult] = React.useState<number | undefined>();
 
   React.useEffect(() => {
     add(2, 5).then(setAddResult);
